@@ -251,6 +251,7 @@ F 0 "C2" V 5398 3950 50  0000 C CNN
 F 1 "470 µF" V 5489 3950 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x4.9" H 5688 3800 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en?keywords=P15094CT-ND" H 5650 3950 50  0001 C CNN
+F 4 "Capacitor" H 5650 3950 50  0001 C CNN "Description"
 	1    5650 3950
 	0    1    1    0   
 $EndComp
