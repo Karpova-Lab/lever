@@ -56,22 +56,15 @@ int main(void) {
         PORTA |= (1<<PA3);
         while(PINB & (1<<PB2)){
         }
-        extended_pos = extend_default - TCNT0;
+        extended_pos = extend_default - 2*TCNT0;
         eeprom_update_word(config_start_address + 1, extended_pos);
+        retracted_pos = extended_pos + 700;
+        eeprom_update_word(config_start_address, retracted_pos);
         PORTA &= ~(1<<PA3);
       }
     }
     else{
       duty_cycle = retracted_pos;
-      if (PINB & (1<<PB2)){ // we're getting an adjustment signal
-        TCNT0 = 0;
-        PORTA |= (1<<PA3);
-        while(PINB & (1<<PB2)){
-        }
-        retracted_pos = retract_default + TCNT0;
-        eeprom_update_word(config_start_address, retracted_pos);
-        PORTA &= ~(1<<PA3);
-      }
     }
     _delay_ms(1);
 

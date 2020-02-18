@@ -131,5 +131,5 @@ flash: $(TARGET).hex
 ## An alias
 program: flash
 
-avrdude_terminal:
+avr_term:
 	$(AVRDUDE) -c $(PROGRAMMER_TYPE) -p $(MCU) $(PROGRAMMER_ARGS) -nt
