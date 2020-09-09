@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Lever"
-Date "2020-01-15"
-Rev "1.0"
+Date "2020-01-21"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -24,7 +24,7 @@ L asl_symbols:AVR_ISP X1
 U 1 1 5E19724B
 P 5250 5000
 F 0 "X1" H 5250 5325 50  0000 C CNN
-F 1 "AVR_ISP" H 5250 5234 50  0000 C CNN
+F 1 "75869-331LF" H 5250 5234 50  0000 C CNN
 F 2 "asl_footprints:AVR_ISP" H 5100 4950 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en?keywords=609-5122-ND" H 5100 4950 50  0001 C CNN
 F 4 "ISP Header" H 5250 5000 50  0001 C CNN "Description"
@@ -84,7 +84,7 @@ L asl_symbols:RJ45_pyControl J1
 U 1 1 5E18FEB4
 P 5650 2750
 F 0 "J1" H 5682 3325 50  0000 C CNN
-F 1 "RJ45_pyControl" H 5682 3234 50  0000 C CNN
+F 1 "0855135013" H 5682 3234 50  0000 C CNN
 F 2 "asl_footprints:RJ45_SMD_Vertical" H 5700 2200 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en?keywords=WM3553CT-ND" V 5550 2725 50  0001 C CNN
 F 4 "RJ45 Jack" H 5650 2750 50  0001 C CNN "Description"
@@ -158,9 +158,9 @@ L Device:LED D1
 U 1 1 5E1D3913
 P 4500 4450
 F 0 "D1" H 4493 4666 50  0000 C CNN
-F 1 "LED" H 4493 4575 50  0000 C CNN
+F 1 "Red" H 4493 4575 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 4450 50  0001 C CNN
-F 3 "~" H 4500 4450 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?keywords=160-1447-1-ND" H 4500 4450 50  0001 C CNN
 F 4 "Indicator LED" H 4500 4450 50  0001 C CNN "Description"
 	1    4500 4450
 	1    0    0    -1  
@@ -189,10 +189,10 @@ L MCU_Microchip_ATtiny:ATtiny84-20SSU U1
 U 1 1 5E191972
 P 6850 4600
 F 0 "U1" H 6320 4646 50  0000 R CNN
-F 1 "ATtiny84-20SSU" H 6320 4555 50  0000 R CNN
+F 1 "ATTINY24A-SSUR" H 6320 4555 50  0000 R CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6850 4600 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf" H 6850 4600 50  0001 C CNN
-F 4 "ATtiny 84 MCU" H 6850 4600 50  0001 C CNN "Description"
+F 3 "https://www.digikey.com/products/en?keywords=ATTINY24A-SSURCT-ND" H 6850 4600 50  0001 C CNN
+F 4 "ATtiny 24 MCU" H 6850 4600 50  0001 C CNN "Description"
 	1    6850 4600
 	-1   0    0    -1  
 $EndComp
@@ -201,7 +201,7 @@ L Device:R_US R1
 U 1 1 5E1E2B3D
 P 4250 4950
 F 0 "R1" H 4182 4904 50  0000 R CNN
-F 1 "10KΩ" H 4182 4995 50  0000 R CNN
+F 1 "20KΩ" H 4182 4995 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4290 4940 50  0001 C CNN
 F 3 "~" H 4250 4950 50  0001 C CNN
 	1    4250 4950
@@ -231,9 +231,9 @@ L Device:C C1
 U 1 1 5E1F59E0
 P 7000 3650
 F 0 "C1" V 6748 3650 50  0000 C CNN
-F 1 "0.1µF" V 6839 3650 50  0000 C CNN
+F 1 "0.1 µF" V 6839 3650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7038 3500 50  0001 C CNN
-F 3 "~" H 7000 3650 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?keywords=1276-1258-1-ND" H 7000 3650 50  0001 C CNN
 	1    7000 3650
 	0    1    1    0   
 $EndComp
