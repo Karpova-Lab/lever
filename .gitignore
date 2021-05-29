@@ -12,3 +12,9 @@ _autosave-*
 
 # Footprint cache
 fp-info-cache
+doc_src/build
+*.elf
+*.o
+*.map
+*.hex
+.vscode
