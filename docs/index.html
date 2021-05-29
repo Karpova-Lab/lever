@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.83.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Overview #     Click to view CAD model
+This is the documentation for building and using a retractable lever. This project was developed in the Karpova Lab at HHMI&rsquo;s Janelia Research Campus for use in rodent behavioral experiments.
+Features #   Extends and retracts depending on input signal Outputs signal when lever is pressed or released pyControl compatible Durable - faceplate and lever are made of aluminum Fast - 180ms to extend or retract Open - all files are available on GitHub and can be modified to meet custom needs  The servo and lever mount interface using a pin and slot mechanism.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://karpova-lab.github.io/Lever/" />
+
+<title> | Lever</title>
+<link rel="manifest" href="/Lever/manifest.json">
+<link rel="icon" href="/Lever/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/Lever/book.min.01b0771bbeccf07610a3fe838d7b05dd5e2c05fb4c879f2a205d7bae9d05181a.css" integrity="sha256-AbB3G77M8HYQo/6DjXsF3V4sBftMh58qIF17rp0FGBo=" crossorigin="anonymous"><link rel="alternate" type="application/rss+xml" href="https://karpova-lab.github.io/Lever/index.xml" title="Lever" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <script src="https://kit.fontawesome.com/622646117d.js" crossorigin="anonymous"></script>
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/Lever/"><span>Lever</span>
+  </a>
+</h2>
+
+
+
+
+<div style="border-top: 1px solid #d3d3d3; padding-top:10px; width: 75%;"></div>
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://karpova-lab.github.io/Lever/docs/building/" class="">Building</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://karpova-lab.github.io/Lever/docs/using/" class="">Using</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="border-top: 1px solid #d3d3d3; padding-top:20px; width: 75%;">
+</div>
+<a href="https://github.com/Karpova-Lab/lever" class="btn-external issue">
+    <i class="fab fa-github"></i>
+      GitHub Repository
+</a>
+<br>
+
+<p class="github_text">Questions? Feedback? Ideas?</p>
+<a href="https://github.com/Karpova-Lab/lever/discussions" class="btn-external issue">
+    <i class="fas fa-comments"></i>   Add to discussions
+</a>
+
+<p class="github_text">Corrections?</p>
+<a href="https://github.com/Karpova-Lab/lever/issues/new" class="btn-external issue">
+    <i class="fas fa-edit"></i> Submit an issue 
+</a>
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/Lever/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <label for="toc-control">
+    
+    <img src="/Lever/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="overview">
+  Overview
+  <a class="anchor" href="#overview">#</a>
+</h1>
+<p>
+    <a href="https://a360.co/2xeP6Bi">
+        <img src="render.png" style="width:70%;margin:auto;display:block;">
+        </img>
+    </a>
+</p>
+
+
+<p style="text-align:center; margin-top:-20px; font-style:italic;">Click to view CAD model</p>
+<p>This is the documentation for building and using a retractable lever.
+This project was developed in the <a href="https://www.janelia.org/lab/karpova-lab">Karpova Lab</a> at HHMI&rsquo;s Janelia Research Campus for use in rodent behavioral experiments.</p>
+<h2 id="features">
+  Features
+  <a class="anchor" href="#features">#</a>
+</h2>
+<ul>
+<li>Extends and retracts depending on input signal</li>
+<li>Outputs signal when lever is pressed or released</li>
+<li><a href="https://pycontrol.readthedocs.io/en/latest/user-guide/hardware/#behaviour-ports">pyControl</a> compatible</li>
+<li>Durable - faceplate and lever are made of aluminum</li>
+<li>Fast - 180ms to extend or retract</li>
+<li>Open - all files are available on <a href="https://github.com/Karpova-Lab/nosepoke">GitHub</a>  and can be modified to meet custom needs</li>
+</ul>
+<p><img src="exploded.png" alt="" />
+
+
+<p style="text-align:center; margin-top:-20px; font-style:italic;">The servo and lever mount interface using a pin and slot mechanism. The lever rotates about two spring plungers.</p>
+<img src="movement.png" alt="" />
+
+
+<p style="text-align:center; margin-top:-20px; font-style:italic;">Servo arm rotation is translated into linear movement of a carriage along a guide rail</p></p>
+<!-- <div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <br>
+<p style="text-align:center; margin-top:-20px; font-style:italic;">The lever begins retracted</p>
+<br>
+<p style="text-align:center; margin-top:-20px; font-style:italic;">As the stage extends, the limit switch arm rolls along the lever surface.</p>
+<br>
+<p style="text-align:center; margin-top:-20px; font-style:italic;">Pressing the lever front lifts the back and actuates the limit switch.</p>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <img src="actuation.png" alt="">
+  </div>
+  
+</div>
+ -->
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div style="height:100%;display:flex;justify-content:center;flex-direction:column;">
+<p style="text-align:center; margin-top:-20px; font-style:italic;">The lever begins retracted</p>
+    <br>
+<p style="text-align:center; margin-top:-20px; font-style:italic;">As the stage extends, the limit switch arm rolls along the lever surface.</p>
+    <br>
+<p style="text-align:center; margin-top:-20px; font-style:italic;">Pressing the lever front lifts the back and actuates the limit switch.</p>
+</div>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <img src="actuation.png" alt="">
+  </div>
+  
+</div>
+
+
+
+
+<a class="btn-nav next" href= https://karpova-lab.github.io/Lever/docs/building/ >
+    <i style="font-size: 1rem;">next</i><br>Building <i class="fas fa-arrow-right"></i></i>
+</a>
+<br>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
