@@ -1,0 +1,23 @@
+baseURL = "https://karpova-lab.github.io/Lever/"
+languageCode = "en-us"
+title = "Lever"
+publishDir = "../docs/"
+theme = "book"
+
+
+[params]
+  BookSearch = false
+  BookTheme = 'light'
+  BookRepo =  'https://github.com/Karpova-Lab/lever'
+  
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+
+  [markup.highlight] 
+      style = 'friendly'
