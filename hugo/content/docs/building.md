@@ -1,3 +1,10 @@
+---
+prev_txt: Overview
+prev_link: ..
+next_txt: Using
+next_link: using
+---
+
 # Building
 
 ![](parts.jpg)
@@ -109,6 +116,3 @@ An Arduino can be [used as an ISP](https://www.arduino.cc/en/Tutorial/BuiltInExa
 The Makefile and c program can be found [here](https://github.com/Karpova-Lab/Lever/tree/main/software/lever)
 
 
-
-{{< previous link="../" text="Overview" >}}
-{{< next link="using" text="Using" >}}

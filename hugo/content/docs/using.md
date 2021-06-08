@@ -1,3 +1,7 @@
+---
+prev_txt: Building
+prev_link: building
+---
 # Using
 
 ## pyControl
@@ -62,9 +66,7 @@ def retracted(event):
         set_timer("extend_again", v.retract_time_ms)
     elif event == "extend_again":
         goto_state("available")
-
 ```
 
 For more information on writing your own tasks, refer to the  [pyControl documentation](https://pycontrol.readthedocs.io/en/latest/user-guide/programming-tasks/).
 
-{{< previous link="building" text="Building" >}}

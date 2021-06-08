@@ -1,3 +1,7 @@
+---
+next_txt: Building
+next_link: building
+---
 
 # Overview
 
@@ -55,5 +59,3 @@ This project was developed in the [Karpova Lab](https://www.janelia.org/lab/karp
 {{< /columns >}}
 
 
-
-{{< next link="building" text="Building" >}}
