@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lever</title>
-    <link>https://karpova-lab.github.io/Lever/</link>
+    <link>https://karpova-lab.github.io/lever/</link>
     <description>Recent content on Lever</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://karpova-lab.github.io/Lever/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://karpova-lab.github.io/lever/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://karpova-lab.github.io/Lever/docs/building/</link>
+      <link>https://karpova-lab.github.io/lever/docs/building/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://karpova-lab.github.io/Lever/docs/building/</guid>
+      <guid>https://karpova-lab.github.io/lever/docs/building/</guid>
       <description>Building #  Hardware #     QTY Description Part Number Supplier     2 Press-fit spring plunger 8683A11 McMaster-Carr   7 M3 threaded insert 94510A240 McMaster-Carr   3 M3 x 8 mm flat head screws 92010A118 McMaster-Carr   4 M3 x 8 mm pan head screws 92000A118 McMaster-Carr   4 M2 threaded insert 94510A360 McMaster-Carr   2 M2 x 5 mm screws 92000A012 McMaster-Carr   1 5 x 60 mm linear rail 6725K25 McMaster-Carr   1 5 mm block/carriage 8438K1 McMaster-Carr   1 Servo 35065S00 ServoCity   1 Servo arm 55707 ServoCity   1 Limit switch D2HW-C203MR Digi-Key    3D printed parts #  Frame #   frame.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://karpova-lab.github.io/Lever/docs/using/</link>
+      <link>https://karpova-lab.github.io/lever/docs/using/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://karpova-lab.github.io/Lever/docs/using/</guid>
+      <guid>https://karpova-lab.github.io/lever/docs/using/</guid>
       <description>Using #  pyControl #  This lever works with the pyControl behavior framework. Specifically, this means that the RJ45 pinout is compatible with pyControl. Using an ethernet cable, you can connect the lever to an original breakout board or a D-series breakout board.
-Example task #   Note For the example to work, _lever.py  must be downloaded and placed in your devices folder. Then after connecting to you pyboard, use the &amp;ldquo;config&amp;rdquo; button to &amp;ldquo;Load framework&amp;rdquo;.</description>
+Example task #   Note For the example to work,  _lever.py  must be downloaded and placed in your devices folder. Then after connecting to you pyboard, use the &amp;ldquo;config&amp;rdquo; button to &amp;ldquo;Load framework&amp;rdquo;.</description>
     </item>
     
   </channel>

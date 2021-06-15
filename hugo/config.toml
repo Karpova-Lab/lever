@@ -1,4 +1,4 @@
-baseURL = "https://karpova-lab.github.io/Lever/"
+baseURL = "https://karpova-lab.github.io/lever/"
 languageCode = "en-us"
 title = "Lever"
 publishDir = "../docs/"
