@@ -113,6 +113,4 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/Lever/tree/main/
 
 The ATtiny24 microcontroller is programmed with AVR's ISP (In-circuit Serial Programmer). 
 An Arduino can be [used as an ISP](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP) or a purpose build [programmer](https://www.tindie.com/products/nsayer/usb-isp/) can be used. 
-The Makefile and c program can be found [here](https://github.com/Karpova-Lab/Lever/tree/main/software/lever)
-
-
+The Makefile and C program can be found [here](https://github.com/Karpova-Lab/Lever/tree/main/software/lever)
