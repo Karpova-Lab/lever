@@ -9,7 +9,7 @@ Using an ethernet cable, you can connect the lever to an [original breakout boar
 ## Example task
 
 !!! info 
-    For the example to work, [:material-file-download: _lever.py](using/_lever.py) must be downloaded and placed in your `devices` folder. 
+    For the example to work, [:material-file-download: _lever.py](using/downloads/_lever.py) must be downloaded and placed in your `devices` folder. 
     Then after connecting to you pyboard, use the "config" button to "Load framework".
     This will transfer the device files, including _lever.py, from your computer onto the pyboard microcontroller.
 
