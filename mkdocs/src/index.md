@@ -3,16 +3,17 @@
 ![](overview/views.png)
 
 This is the documentation for building and using a retractable lever.
-This project was developed in the [Karpova Lab](https://www.janelia.org/lab/karpova-lab) at HHMI's Janelia Research Campus for use in rodent behavioral experiments.
+
+This project was developed by Andy Lustig in the [Karpova Lab](https://www.janelia.org/lab/karpova-lab) at HHMI's Janelia Research Campus.
 
 ## Features
 
-- Extends and retracts depending on input signal
-- Outputs signal when lever is pressed or released
+- Receives an input signal to either extend or retract the lever
+- Produces an output signal corresponding to the status of the lever (pressed or not pressed)
 - [pyControl](https://pycontrol.readthedocs.io/en/latest/user-guide/hardware/#behaviour-ports) compatible
-- Durable - faceplate and lever are made of aluminum
 - Fast - 180ms to extend or retract
-- Open - all files are available on [GitHub](https://github.com/Karpova-Lab/nosepoke)  and can be modified to meet custom needs
+- Durable - faceplate and lever are made of aluminum and can hold up to abuse from rodent claws and teeth
+- Open source - all files are available on [GitHub](https://github.com/Karpova-Lab/nosepoke) and can be modified to meet custom needs
 
 ## Diagrams
 
