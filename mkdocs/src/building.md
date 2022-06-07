@@ -58,7 +58,13 @@ PCB source files are on [GitHub](https://github.com/Karpova-Lab/Lever/tree/main/
 
 <a href="https://oshpark.com/shared_projects/nfp2wGL1"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
 
-![](building/pcb_render.png){ width="49%" }
+
+=== "layout"
+    ![](building/layout.png){ width="600px" }
+=== "schematic"
+    ![](building/schematic.png){ width="600px" }
+=== "render"
+    ![](building/pcb_render.png){ width="500px" }
 
 
 ### Bill of Materials
