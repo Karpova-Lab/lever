@@ -6,6 +6,7 @@ Full documentation can be found at https://karpova-lab.github.io/lever/
 
 Feedback and questions can be submitted to [discussions](https://github.com/Karpova-Lab/lever/discussions).
 
+![demo gif](docs/overview/demo.gif)
 ![](docs/overview/views.png)
 ![](docs/overview/exploded.png)
 ![](docs/overview/movement.png)
